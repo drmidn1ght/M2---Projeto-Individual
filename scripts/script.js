@@ -39,3 +39,13 @@ function mostrarOpcoes() {
     option.value = valor;
     select.add(option);
   }
+
+}
+
+var valor = parseFloat
+
+function validaNumero(valor)
+if (valor <=0)
+{
+    document.createElement(" ("p exempl"o)
+}
