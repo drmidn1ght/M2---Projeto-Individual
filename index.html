@@ -2,15 +2,14 @@
 <html lang="pt_br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><
     <title>Conversor de Unidades - Ana Oliveira</title>
-
+    <link rel="stylesheet" href="./css/style.css">
     <script src="./scripts/script.js" defer></script>
 </head>
 <body>
 
-    <headerclass="cabecalho" 
+    <header class="cabecalho"></headerclass> 
     <p class="cabecalhoTexto"> Projeto Individual - Módulo 2</p>
 
     </header>
@@ -30,12 +29,25 @@
         <br><br>
     
         <label for="medida-origem">Medida de Origem:</label>
-        <select id="medida-origem"></select>
+        <select id="medida-origem" onchange="mostrarOpcoes()">
+        
+            <option value="metros">Metros</option>
+            <option value="centimetros">Centímetros</option>
+            <option value="polegadas">Polegadas</option>
+          <
+        </select>
     
         <br><br>
     
         <label for="medida-destino">Medida de Destino:</label>
-        <select id="medida-destino"></select>
+        <select id="medida-destino">
+
+            <option value="comprimento">Metros</option>
+            <option value="">Centímetros</option>
+            <option value="">Polegadas</option>
+          <
+
+        </select>
     
         <br><br>
     
@@ -44,8 +56,11 @@
     
         <br><br>
     
-        <input type="submit" id=""botaoConverter"  value="Converter">
+        <button type"submit" id=""botaoConverter"  value="Converter">
       </form>
+
+<br>
+<br>
 
       <div id=""caixaResultado"></div>
     
