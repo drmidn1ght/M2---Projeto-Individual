@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Conversor de Unidades - Ana Oliveira</title>
+
+    <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+
+    <headerclass="cabecalho" 
+    <p class="cabecalhoTexto"> Projeto Individual - Módulo 2</p>
+
+    </header>
+
+<main>
+<section class=""conteudo">
+    <h1> Conversor de Unidades </h1>
+
+    <form>
+        <label for="tipo-medida">Selecione a categoria:</label>
+        <select id="tipo-medida" onchange="mostrarOpcoes()">
+          <option value="comprimento">Comprimento</option>
+          <option value="peso">Peso</option>
+          <option value="temperatura">Temperatura</option>
+        </select>
+    
+        <br><br>
+    
+        <label for="medida-origem">Medida de Origem:</label>
+        <select id="medida-origem"></select>
+    
+        <br><br>
+    
+        <label for="medida-destino">Medida de Destino:</label>
+        <select id="medida-destino"></select>
+    
+        <br><br>
+    
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor" maxlength="30">
+    
+        <br><br>
+    
+        <input type="submit" id=""botaoConverter"  value="Converter">
+      </form>
+
+      <div id=""caixaResultado"></div>
+    
+    </div>
+    
+</main>
+</section>
+
+<section class=""rodape">
+<footer>
+
+2023 - Ana Oliveira - <a href="""> GitHub </a>
+
+</footer>
+</section>
+</body>
+</html>
