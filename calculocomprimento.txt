@@ -1,0 +1,39 @@
+metros para centímetros:
+
+cm = m * 100
+
+
+---------------
+
+metros para polegadas:
+
+in = m * 39.3701
+
+
+------------------
+
+
+centímetros para metros:
+
+m = cm / 100
+
+
+------------------
+
+centímetros para polegadas:
+
+in = cm / 2.54
+
+
+-------------
+
+polegadas para metros:
+
+m = in * 0.0254
+
+
+--------------------
+
+polegadas para centímetros:
+
+cm = in * 2.54
