@@ -68,6 +68,42 @@ var valor = document.querySelector("#valor");
 var valor = parseFloat;
 
 
+
+//
+
+Função para fazer o cálculo quando o botão for pressionado
+
+//
+
+functionfazerCalculo(botaoConverter, calculo);
+{
+
+  let botaoConverter = (document.querySelector)"#botaoConverter"))
+if (botaoConverter.select= trie)
+{
+  calculo;
+}
+
+})}
+
+function validaNumero(valor);
+{
+
+  if (valor <= 0)
+      {
+        alert("O número deve ser maior que zero.");
+      }
+    }
+
+
+      }
+}
+
+)
+
+
+
+
 //
 
 Condicionais para cálculos
@@ -75,6 +111,9 @@ Condicionais para cálculos
 //
 )
 
+
+functioncalculo();
+{}
 
 //
 
@@ -87,10 +126,8 @@ if (medidaOrigem == metros && medidaDestino == centimetros)
 
 {
     valor = (valor * 100)
-    retornaValor = document.querySelector("#caixaResultado");
-    document.createElement this
-    document.innerText(valor)
-
+ document.querySelector("#caixaResultado")
+ document.innerText(valor);
 }
 
 
@@ -365,7 +402,7 @@ if (medidaOrigem == celsius && medidaDestino == kelvin)
   }
 
 
-  
+
   }
   }
   }
@@ -379,4 +416,4 @@ if (medidaOrigem == celsius && medidaDestino == kelvin)
   }
   }))
 }
-}
+}}
