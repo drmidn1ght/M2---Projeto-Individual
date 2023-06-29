@@ -1,0 +1,47 @@
+celsius para fahrenheit:
+
+°F = (°C * 9/5) + 32
+
+
+----
+
+celsius para kelvin:
+
+K = °C + 273.15
+
+
+--------
+
+
+--------------------
+
+fahrenheit para celsius:
+
+°C = (°F - 32) * 5/9
+
+
+------
+
+fahrenheit para kelvin:
+
+K = (°F - 32) * 5/9 + 273.15
+
+
+------------
+
+
+kelvin para celsius:
+
+
+°C = K - 273.15
+
+
+----------------------
+
+
+
+kelvin para fahrenheit:
+
+°F = (K - 273.15) * 9/5 + 32
+
+

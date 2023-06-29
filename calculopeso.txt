@@ -1,0 +1,38 @@
+quilogramas para gramas:
+
+g = kg * 1000
+
+
+------------
+
+quilogramas para libras:
+
+lb = kg * 2.20462
+
+
+---------------------
+
+gramas para quilogramas:
+
+kg = g / 1000
+
+
+--------------------
+
+gramas para libras:
+
+lb = g * 0.00220462
+
+
+-----------
+
+libras para quilogramas:
+
+kg = lb / 2.20462
+
+
+--------
+
+libras para gramas:
+
+g = lb * 453.59237
